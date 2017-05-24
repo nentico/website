@@ -1,0 +1,46 @@
+@font-face {
+  	font-family: "MSlab";
+  	src: url("Museo_Slab_700.otf");
+}
+@font-face {
+  	font-family: "MSans";
+  	src: url("MuseoSans_300.otf");
+}
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+nav {
+	width: 100%;
+	text-align: center;
+	margin: 10px;
+	background-color: white;
+}
+body {
+	width: 65%;
+	margin: auto;
+}
+article {
+	padding: 15px;
+	margin-bottom: 30px;
+	border-top: 2px solid red;
+	background-color: #FFFACD;
+}
+h1, p {
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-family: MSlab;
+}
+p, small {
+	font-family: MSans;
+}
+header {
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+iframe {
+	height: 200px;
+	width: 100%;
+}
